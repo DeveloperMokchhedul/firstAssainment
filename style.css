@@ -1,0 +1,800 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+html, body{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.container{
+    width: 1512px;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 11px 28px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* header css start */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+
+    .logo img{
+        width: 200px;
+        margin-left: 30px;
+    }
+
+    .menuItem{
+        display: flex;
+        gap: 21px;
+        list-style: none;
+        font-size: 22px;
+
+    }
+    .userSiteItem{
+        display: flex;
+        gap: 21px;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+
+    }
+}
+
+/* header css end */
+
+
+/* hero Section css start */
+
+.heroSection{
+    width: 1512px;
+    height: 760px;
+    background-image: url(images/Rectangle\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+
+    .heroBox{
+        width: 1160px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .title{
+            text-align: center;
+            font-size: 45px;
+            font-weight: 500;
+            padding-top: 30px;
+        }
+
+        .formData{
+            width: 922px;
+            margin: 50px auto;
+            padding: 0 20px;
+           
+
+            .topBtn{
+                display: flex;
+
+
+                .FormBtn{
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+
+                    .formItem{
+                        background-color: #F8F8F8;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 8px;
+                        padding: 5px 45px;
+                        border-radius: 10px;
+
+
+                        & h3{
+                            font-size: 22px;
+                            font-weight: 500;
+                        }
+
+
+                        & img{
+                            width: 14px;
+                            height: 7px;
+                        }
+                    }
+
+
+                
+                    
+
+                }
+
+            }
+
+            .buttomBtn{
+                margin-top: 20px;
+                
+
+                .formBtn1{
+                    width: 70%;
+                    background-color: #ECECEC;
+                    border: none;
+                    font-size: 22px;
+                    font-weight: 500;
+                    border-radius: 10px;
+                    padding: 5px 30px;
+                    
+                }
+                .formBtn2{
+                    background-color: #00EBC7;
+                    ;
+                    border: none;
+                    font-size: 22px;
+                    font-weight: 600;
+                    border-radius: 30px;
+                    margin: 0 30px ;
+                    padding: 10px 45px;
+                  
+                }
+            }
+
+        }
+
+
+        
+        
+    }
+
+    .zapperBtn{
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 30px;
+        background-color: transparent;
+        border: 1px dotted #FFFFFF;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+}
+
+
+.buySellSection{
+    background-color: #FDE24F;
+    padding-bottom: 150px;
+
+    .buyselTitle{
+        font-size: 34px;
+        font-weight: 500;
+        text-align: center;
+        padding: 60px 0;
+    }
+    .buysel{
+        .buyselImage{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin:0 145px;
+            
+            
+        }
+    }
+ 
+}
+
+
+.featureSection{
+    padding-top: 80px;
+    padding-bottom: 180px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-bottom: 1px solid #000000;
+    position: relative;
+
+
+
+    .featureTitle{
+        font-size: 34px;
+        font-weight: 500;
+        padding-bottom: 60px;
+        padding-left: 65px;
+    }
+    .featureItems{ 
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+     
+       
+
+
+        .featureItem{
+            text-align: center;
+            width: 300px;
+            height: 280px;
+            margin: 0 100px;
+            
+
+            & img{
+                width: 80px;
+                height: 80px;
+                margin-bottom: 10px;
+            }
+            & h3{
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            & p{
+                font-size: 20px;
+                font-weight: 400px;
+            }
+            & a{
+                font-size: 16;
+                font-weight: 600;
+                display: block;
+                margin-top: 60px;
+                color: #000000;
+            }
+        }
+    }
+    .featureBtn{
+        background-color: transparent;
+        font-size: 22px;
+        font-weight: 500;
+        color: #000000;
+        position: absolute;
+        bottom: 3%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .featureLine1{
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        position: absolute;
+        top: 45%;
+        left: 28%;
+    }
+    .featureLine2{
+        width: 150px;
+        height: 2px;
+        background-color: #000000;
+        position: absolute;
+        top: 45%;
+        left: 62%;
+    }
+}
+
+
+.Buy_SellSection{
+    background-color:#F8F8F8;
+    display: flex;
+    padding-bottom: 180px;
+    align-items: center;
+   justify-content: space-between;
+   position: relative;
+    
+   
+    .buySite{
+        position: relative;
+        margin-left: 100px;
+        .buySiteTitle{
+            font-size: 34px;
+            font-weight: 50px;
+            margin-top: 75px;
+            margin-bottom: 60px;
+        }
+      
+        .buyItem{
+            background-color: #FFFFFF;
+            display: flex;
+            border: 1px solid black;
+            width: 100%;
+            border-radius: 15px;
+            justify-content: start;
+            align-items: center;
+            margin: 40px 40px 0px 0px;
+            padding: 10px 0;
+            
+
+            & img{
+                width: 74px;
+                height: 74px;
+                margin: 0 20px;
+            }
+
+            .details{
+                display: flex;
+                gap: 30px;
+            }
+
+        }
+        .btn{
+            position: absolute;
+            margin-top: 80px;
+            margin-left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .selSite{
+        
+        position: relative;
+        margin-right: 100px;
+       
+        .selSiteTitle{
+            font-size: 34px;
+            font-weight: 50px;
+            margin-top: 75px;
+            margin-bottom: 60px;
+        }
+
+       
+        .selItem{
+            background-color: #FFFFFF;
+            display: flex;
+            border: 1px solid black;
+            width: 100%;
+            border-radius: 15px;
+            justify-content: start;
+            align-items: center;
+            padding: 5px 0;
+            margin: 40px 40px 0px 0px;
+            padding: 10px 0;
+            & img{
+                width: 74px;
+                height: 74px;
+                margin: 0 20px;
+            }
+
+            .details{
+                display: flex;
+                justify-content: space-around;
+                gap: 30px;
+
+                & h3{
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+
+        }
+    }
+    .btn{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .line{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 2px;
+        height: 100%;
+        background-color:#000000;
+        z-index: 100;
+    }
+    
+}
+
+
+.criptoSection{
+    padding-bottom: 250px;
+    background-color: #CFBAFF;
+    position: relative;
+    .criptoTitle{
+        font-size: 75px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 90px;
+        padding-top: 160px;
+    }
+    .criptoBtn{
+        font-size: 32px;
+        font-weight: 500;
+        border-radius: 30px;
+        padding: 15px 45px;
+        background-color: #000000;
+        color: #FFFFFF;
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+.footerSection{
+    padding-bottom: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    
+
+    .footerItems{
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        padding-right: 250px;
+        padding-top: 110px;
+        margin-bottom: 50px;
+
+        .footerItem{
+
+            & h1{
+                font-size: 28px;
+                font-weight: 600px;
+                padding-bottom: 20px;
+            }
+
+            & p{
+                font-size: 20px;
+                font-weight: 600px;
+                margin-bottom: 13px;
+               
+            }
+        }
+    }
+
+    .copyRight{
+        border-top: 2px solid #FFFFFF;
+        padding: 40px 50px;
+
+        & p{
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 16px;
+            text-align: center;
+        }
+    }
+
+
+
+
+}
+
+
+@media(max-device-width:767px){
+    .container{
+        max-width: 767px;
+    }
+
+    .header{
+        display: flex;
+
+        .logo img{
+            width: 120px;
+            margin-left: 30px;
+        }
+        .menuItem{
+            display: none;
+        }
+        .userSiteItem{
+            display: flex;
+
+            .btn{
+                font-size: 16px;
+                padding: 3px 15px;
+            }
+        }
+    }
+
+
+
+
+    
+.heroSection{
+
+    .heroBox{
+        max-width: 767px;
+
+        .title{
+
+            font-size: 30px;
+        }
+        .formData{
+            max-width: 767px;
+            margin: 50px auto;
+            padding: 0 20px;
+            .topBtn{
+                display: flex;
+                justify-content: center;
+                .FormBtn{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    .formItem{
+                        & img{
+                            width: 14px;
+                            height: 7px;
+                        }
+                    }
+                }
+            }
+
+            .buttomBtn{
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                padding: 10px 0;
+                
+
+                .formBtn1{
+                    width: fit-content;
+                }
+                .formBtn2{
+                    padding: 5px 30px;
+                  
+                }
+            }
+
+        } 
+    }
+}
+
+
+
+    
+.featureSection{
+    padding-top: 80px;
+    padding-bottom: 180px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-bottom: 1px solid #000000;
+    position: relative;
+
+
+
+    .featureTitle{
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 5px;
+        text-align: center;
+
+        & h1{
+            text-align: center;
+        }
+
+    }
+    .featureItems{ 
+        .featureItem{
+            margin-top: 50px;
+
+        }
+    }
+   
+    .featureLine1{
+        display: none;
+
+    }
+    .featureLine2{
+
+        display: none;
+
+    }
+}
+    
+
+
+
+
+.Buy_SellSection{
+    background-color:#F8F8F8;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+   position: relative;
+    
+   
+    .buySite{
+        position: relative;
+        margin-left: 5px;
+        .buySiteTitle{
+            font-size: 34px;
+            font-weight: 500;
+            margin-top: 75px;
+            margin-bottom: 60px;
+        }
+      
+        .buyItem{
+            background-color: #FFFFFF;
+            display: flex;
+            border: 1px solid black;
+            width: 100%;
+            border-radius: 15px;
+            justify-content: start;
+            align-items: center;
+            margin: 40px 40px 0px 0px;
+            padding: 10px 0;
+            
+
+            & img{
+                width: 40px;
+                height: 40px;
+                margin: 0 20px;
+            }
+
+            .details{
+                display: flex;
+                gap: 30px;
+            }
+
+        }
+        .btn{
+            position: absolute;
+            margin-top: 80px;
+            margin-left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .selSite{
+        
+        position: relative;
+        margin-right: 0px;
+        padding-bottom: 180px;
+       
+        .selSiteTitle{
+            padding-top: 120px;
+   
+        }
+
+       
+        .selItem{
+            background-color: #FFFFFF;
+            display: flex;
+            border: 1px solid black;
+
+            border-radius: 15px;
+            justify-content: start;
+            align-items: center;
+            padding: 5px 0;
+            margin: 40px 40px 0px 0px;
+            padding: 10px 0;
+            & img{
+                width: 40px;
+                height: 40px;
+                margin: 0 20px;
+            }
+
+            .details{
+                display: flex;
+                justify-content: space-around;
+                gap: 30px;
+
+                & h3{
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+
+        }
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+    .btn{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .line{
+        display: none;
+
+        
+    }
+    
+}
+
+
+
+
+
+.criptoSection{
+    padding-bottom: 250px;
+
+    .criptoTitle{
+        font-size: 25px;
+        line-height: 40px;
+        padding-top: 60px;
+ 
+    }
+    .criptoBtn{
+        font-size: 25px;
+        font-weight: 500;
+        border-radius: 30px;
+        padding: 15px 45px;
+        background-color: #000000;
+        color: #FFFFFF;
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+
+
+
+
+.footerSection{
+    
+
+    .footerItems{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        gap: 30px;
+        justify-content: space-between;
+        padding:0 50px;
+        padding-top: 80px;
+        margin-bottom: 10px;
+
+        .footerItem{
+
+            & h1{
+                font-size: 28px;
+                font-weight: 600px;
+                padding-bottom: 20px;
+            }
+
+            & p{
+                font-size: 20px;
+                font-weight: 600px;
+                margin-bottom: 13px;
+               
+            }
+        }
+    }
+
+}
+
+
+
+
+}
